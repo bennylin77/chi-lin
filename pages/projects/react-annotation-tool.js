@@ -1,10 +1,10 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
 import 'bootstrap/dist/css/bootstrap.min.css';
-const DynamicImageComponent = dynamic(import('../../components/ImageAnnotationDemo.js'), {
+const DynamicImageComponent = dynamic(import('../../components/imageAnnotationDemo/ImageAnnotationDemo.js'), {
   ssr: false
 })
-const DynamicVideoComponent = dynamic(import('../../components/VideoAnnotationDemo.js'), {
+const DynamicVideoComponent = dynamic(import('../../components/videoAnnotationDemo/VideoAnnotationDemo.js'), {
   ssr: false
 })
 

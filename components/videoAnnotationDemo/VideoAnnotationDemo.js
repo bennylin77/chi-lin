@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {VideoTool} from "react-annotation-tool"
-import {videoInstruction} from "../videoInstruction/VideoInstruction"
+import { VideoTool } from "react-annotation-tool"
+import Instructions from "../videoInstruction/VideoInstruction"
 import { Container, Row, Col, Card, CardBody, CardTitle, CardText } from 'reactstrap';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
@@ -89,7 +89,7 @@ class Demo extends Component {
 			        </FormGroup>
         			<Button>Submit</Button>
 			    </Form>
-				<Row className="my-3">
+				<Row className="my-3 col-xs-12 col-lg-10 offset-lg-1">
 					<Col>
 						<Instructions />
 					</Col>

@@ -525,25 +525,25 @@ var _jsxFileName = "/home/production/chi-lin/pages/projects/react-annotation-too
 
 
 var DynamicImageComponent = next_server_dynamic__WEBPACK_IMPORTED_MODULE_8___default()(function () {
-  return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ../../components/ImageAnnotationDemo.js */ "./components/ImageAnnotationDemo.js"));
+  return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../../components/imageAnnotationDemo/ImageAnnotationDemo.js */ "./components/imageAnnotationDemo/ImageAnnotationDemo.js"));
 }, {
   ssr: false,
   loadableGenerated: {
     webpack: function webpack() {
-      return [/*require.resolve*/(/*! ../../components/ImageAnnotationDemo.js */ "./components/ImageAnnotationDemo.js")];
+      return [/*require.resolve*/(/*! ../../components/imageAnnotationDemo/ImageAnnotationDemo.js */ "./components/imageAnnotationDemo/ImageAnnotationDemo.js")];
     },
-    modules: ['../../components/ImageAnnotationDemo.js']
+    modules: ['../../components/imageAnnotationDemo/ImageAnnotationDemo.js']
   }
 });
 var DynamicVideoComponent = next_server_dynamic__WEBPACK_IMPORTED_MODULE_8___default()(function () {
-  return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../../components/VideoAnnotationDemo.js */ "./components/VideoAnnotationDemo.js"));
+  return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../../components/videoAnnotationDemo/VideoAnnotationDemo.js */ "./components/videoAnnotationDemo/VideoAnnotationDemo.js"));
 }, {
   ssr: false,
   loadableGenerated: {
     webpack: function webpack() {
-      return [/*require.resolve*/(/*! ../../components/VideoAnnotationDemo.js */ "./components/VideoAnnotationDemo.js")];
+      return [/*require.resolve*/(/*! ../../components/videoAnnotationDemo/VideoAnnotationDemo.js */ "./components/videoAnnotationDemo/VideoAnnotationDemo.js")];
     },
-    modules: ['../../components/VideoAnnotationDemo.js']
+    modules: ['../../components/videoAnnotationDemo/VideoAnnotationDemo.js']
   }
 });
 
@@ -824,6 +824,50 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-annotation-tool");
+
+/***/ }),
+
+/***/ "react-icons/fa":
+/*!*********************************!*\
+  !*** external "react-icons/fa" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-icons/fa");
+
+/***/ }),
+
+/***/ "react-icons/io":
+/*!*********************************!*\
+  !*** external "react-icons/io" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-icons/io");
+
+/***/ }),
+
+/***/ "react-icons/md":
+/*!*********************************!*\
+  !*** external "react-icons/md" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-icons/md");
+
+/***/ }),
+
+/***/ "react-player":
+/*!*******************************!*\
+  !*** external "react-player" ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-player");
 
 /***/ }),
 

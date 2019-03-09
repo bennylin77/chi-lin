@@ -7,14 +7,14 @@ import ReactPlayer from 'react-player'
 import { MdAdd, MdCallSplit, MdDelete, MdRedo, MdUndo, MdArrowForward} from "react-icons/md";
 import { IoMdEyeOff, IoMdEye } from "react-icons/io";
 import { FaChevronDown } from "react-icons/fa";
-import './Instructions.css';
+import './videoInstruction.css';
 
 
 class Instructions extends Component {
 
 	constructor(props){
 		super(props)
-		this.state = { collapse: true };
+		this.state = { collapse: false };
 	}
 
 	toggle = () => {
@@ -87,8 +87,8 @@ class Instructions extends Component {
 			<div className="mb-3 d-flex align-items-center h=1000">
 			<figure className="figure">
 			<ReactPlayer url='https://youtu.be/Wv-mCWM-KIw' height={'40000'} width={'100%'} playing controls muted />
-
-			                                                                </figure></div>
+			</figure>
+			</div>
 
 
 

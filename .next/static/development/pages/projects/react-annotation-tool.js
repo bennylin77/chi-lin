@@ -5335,25 +5335,25 @@ var _jsxFileName = "/home/production/chi-lin/pages/projects/react-annotation-too
 
 
 var DynamicImageComponent = next_server_dynamic__WEBPACK_IMPORTED_MODULE_8___default()(function () {
-  return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../../components/ImageAnnotationDemo.js */ "./components/ImageAnnotationDemo.js"));
+  return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../../components/imageAnnotationDemo/ImageAnnotationDemo.js */ "./components/imageAnnotationDemo/ImageAnnotationDemo.js"));
 }, {
   ssr: false,
   loadableGenerated: {
     webpack: function webpack() {
-      return [/*require.resolve*/(/*! ../../components/ImageAnnotationDemo.js */ "./components/ImageAnnotationDemo.js")];
+      return [/*require.resolve*/(/*! ../../components/imageAnnotationDemo/ImageAnnotationDemo.js */ "./components/imageAnnotationDemo/ImageAnnotationDemo.js")];
     },
-    modules: ['../../components/ImageAnnotationDemo.js']
+    modules: ['../../components/imageAnnotationDemo/ImageAnnotationDemo.js']
   }
 });
 var DynamicVideoComponent = next_server_dynamic__WEBPACK_IMPORTED_MODULE_8___default()(function () {
-  return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../../components/VideoAnnotationDemo.js */ "./components/VideoAnnotationDemo.js"));
+  return Promise.all(/*! import() */[__webpack_require__.e("styles"), __webpack_require__.e(3)]).then(__webpack_require__.bind(null, /*! ../../components/videoAnnotationDemo/VideoAnnotationDemo.js */ "./components/videoAnnotationDemo/VideoAnnotationDemo.js"));
 }, {
   ssr: false,
   loadableGenerated: {
     webpack: function webpack() {
-      return [/*require.resolve*/(/*! ../../components/VideoAnnotationDemo.js */ "./components/VideoAnnotationDemo.js")];
+      return [/*require.resolve*/(/*! ../../components/videoAnnotationDemo/VideoAnnotationDemo.js */ "./components/videoAnnotationDemo/VideoAnnotationDemo.js")];
     },
-    modules: ['../../components/VideoAnnotationDemo.js']
+    modules: ['../../components/videoAnnotationDemo/VideoAnnotationDemo.js']
   }
 });
 
