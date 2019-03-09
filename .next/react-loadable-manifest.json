@@ -223,13 +223,13 @@
       "publicPath": "static/chunks/2.js"
     },
     {
-      "id": 3,
+      "id": 2,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 4,
+      "id": 3,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -1807,6 +1807,102 @@
     {
       "id": "./components/VideoAnnotationDemo.js",
       "name": "./components/VideoAnnotationDemo.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "../../core-js/object/get-own-property-descriptor": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js",
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "../../core-js/object/get-own-property-symbols": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js",
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "@babel/runtime-corejs2/core-js/parse-int": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js",
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/esm/objectSpread": [
+    {
+      "id": "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js",
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "core-js/library/fn/object/get-own-property-descriptor": [
+    {
+      "id": "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js",
+      "name": "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "core-js/library/fn/object/get-own-property-symbols": [
+    {
+      "id": "./node_modules/core-js/library/fn/object/get-own-property-symbols.js",
+      "name": "./node_modules/core-js/library/fn/object/get-own-property-symbols.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "core-js/library/fn/parse-int": [
+    {
+      "id": "./node_modules/core-js/library/fn/parse-int.js",
+      "name": "./node_modules/core-js/library/fn/parse-int.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "./_parse-int": [
+    {
+      "id": "./node_modules/core-js/library/modules/_parse-int.js",
+      "name": "./node_modules/core-js/library/modules/_parse-int.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "./_string-trim": [
+    {
+      "id": "./node_modules/core-js/library/modules/_string-trim.js",
+      "name": "./node_modules/core-js/library/modules/_string-trim.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "./_string-ws": [
+    {
+      "id": "./node_modules/core-js/library/modules/_string-ws.js",
+      "name": "./node_modules/core-js/library/modules/_string-ws.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "../../modules/es6.object.get-own-property-descriptor": [
+    {
+      "id": "./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js",
+      "name": "./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js",
+      "file": "static/chunks/2.js",
+      "publicPath": "static/chunks/2.js"
+    }
+  ],
+  "../modules/es6.parse-int": [
+    {
+      "id": "./node_modules/core-js/library/modules/es6.parse-int.js",
+      "name": "./node_modules/core-js/library/modules/es6.parse-int.js",
       "file": "static/chunks/2.js",
       "publicPath": "static/chunks/2.js"
     }

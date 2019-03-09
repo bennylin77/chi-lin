@@ -31980,7 +31980,7 @@ var _jsxFileName = "/home/production/chi-lin/pages/index.js";
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!******************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fproduction%2Fchi-lin%2Fpages%2Findex.js ***!
   \******************************************************************************************************************/
@@ -32003,5 +32003,5 @@ module.exports = dll_55dc4e2ecf7824085104;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]));;
+},[[1,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map

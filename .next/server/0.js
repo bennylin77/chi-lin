@@ -230,7 +230,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h1", {
-        class: "display-4 text-center",
+        className: "display-4 text-center",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39

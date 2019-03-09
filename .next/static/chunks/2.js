@@ -11,18 +11,23 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react_annotation_tool__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-annotation-tool */ "./node_modules/react-annotation-tool/dist/bundle.js");
-/* harmony import */ var react_annotation_tool__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_annotation_tool__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_annotation_tool__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-annotation-tool */ "./node_modules/react-annotation-tool/dist/bundle.js");
+/* harmony import */ var react_annotation_tool__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_annotation_tool__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+
+
 
 
 
@@ -36,563 +41,633 @@ var _jsxFileName = "/home/production/chi-lin/components/VideoAnnotationDemo.js";
 
 
 
+
 var Demo =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Demo, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_8__["default"])(Demo, _Component);
 
   function Demo(props) {
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Demo);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Demo);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Demo).call(this, props));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(Demo).call(this, props));
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "handleSubmit", function (r) {
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "handleResultSubmit", function (result) {
       _this.setState({
-        result: r
+        result: result
       });
     });
 
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "handleChange", function (event) {
+      var target = event.target;
+      var name = target.name;
+      var value = target.type === "checkbox" ? target.checked : target.value;
+
+      _this.setState(function (preState) {
+        var input = preState.input;
+        return {
+          input: Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_2__["default"])({}, input, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])({}, name, value))
+        };
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "handleSubmit", function (event) {
+      event.preventDefault();
+
+      _this.setState(function (preState) {
+        var input = preState.input;
+        var annotations = _this.isJsonString(input.annotations) ? input.annotations : "[]";
+        return {
+          params: {
+            annotations: JSON.parse(annotations),
+            url: input.url,
+            annotationWidth: _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default()(input.annotationWidth, 10)
+          }
+        };
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "isJsonString", function (str) {
+      try {
+        JSON.parse(str);
+      } catch (e) {
+        return false;
+      }
+
+      return true;
+    });
+
+    var _annotations = [{
+      "id": "jt192wyd",
+      "name": "jt192wyd",
+      "label": "1-2",
+      "color": "rgba(255,0,0,1)",
+      "trajectories": [{
+        "id": "jt192wyb",
+        "name": "jt192wyb",
+        "x": 295.00402335586875,
+        "y": 193.3689649661968,
+        "width": 40.75402335586878,
+        "height": 41.63103503380317,
+        "time": 0.0308226495726496,
+        "status": "Show"
+      }, {
+        "id": "jt1930nb",
+        "name": "jt1930nb",
+        "x": 304.00402335586875,
+        "y": 202.3689649661968,
+        "width": 58.75402335586875,
+        "height": 60.63103503380319,
+        "time": 0.03178472222222222,
+        "status": "Show"
+      }, {
+        "id": "jt193fim",
+        "name": "jt193fim",
+        "x": 309.00402335586875,
+        "y": 213.3689649661968,
+        "width": 58.75402335586875,
+        "height": 60.63103503380319,
+        "time": 0.06388611111111112,
+        "status": "Show"
+      }, {
+        "id": "jt193ijo",
+        "name": "jt193ijo",
+        "x": 320.00402335586875,
+        "y": 220.3689649661968,
+        "width": 58.75402335586875,
+        "height": 74.63103503380319,
+        "time": 0.08677242063492063,
+        "status": "Show"
+      }, {
+        "id": "jt19484m",
+        "name": "jt19484m",
+        "x": 320.48992156587633,
+        "y": 218.42537212616642,
+        "width": 60.697616195899116,
+        "height": 78.17334040378043,
+        "time": 0.0966718253968254,
+        "status": "Show"
+      }, {
+        "id": "jt193o4y",
+        "name": "jt193o4y",
+        "x": 321.00402335586875,
+        "y": 216.3689649661968,
+        "width": 62.75402335586875,
+        "height": 71.63103503380319,
+        "time": 0.10714583333333334,
+        "status": "Show"
+      }, {
+        "id": "jt194dom",
+        "name": "jt194dom",
+        "x": 321.00402335586875,
+        "y": 218.8083044640243,
+        "width": 62.75402335586875,
+        "height": 69.1916955359757,
+        "time": 0.1195857142857143,
+        "status": "Show"
+      }, {
+        "id": "jt193taw",
+        "name": "jt193taw",
+        "x": 321.00402335586875,
+        "y": 228.3689649661968,
+        "width": 62.75402335586875,
+        "height": 59.63103503380319,
+        "time": 0.13459007936507936,
+        "status": "Show"
+      }, {
+        "id": "jt193zb4",
+        "name": "jt193zb4",
+        "x": 318.00402335586875,
+        "y": 228.3689649661968,
+        "width": 81.75402335586875,
+        "height": 59.63103503380319,
+        "time": 0.1693952380952381,
+        "status": "Show"
+      }, {
+        "id": "jt195ltz",
+        "name": "jt195ltz",
+        "x": 328.2874098641244,
+        "y": 230.6523514744525,
+        "width": 70.85164231813906,
+        "height": 56.631035033803215,
+        "time": 0.1985523622047244,
+        "status": "Show"
+      }, {
+        "id": "jt194trg",
+        "name": "jt194trg",
+        "x": 322.00402335586875,
+        "y": 232.3689649661968,
+        "width": 76.66967862975952,
+        "height": 59.63103503380319,
+        "time": 0.22047222222222224,
+        "status": "Show"
+      }, {
+        "id": "jt194lgm",
+        "name": "jt194lgm",
+        "x": 318.00402335586875,
+        "y": 228.3689649661968,
+        "width": 75.75402335586875,
+        "height": 59.63103503380319,
+        "time": 0.22967083333333332,
+        "status": "Show"
+      }, {
+        "id": "jt195p7m",
+        "name": "jt195p7m",
+        "x": 318.00402335586875,
+        "y": 228.3689649661968,
+        "width": 68.75402335586875,
+        "height": 58.19684946385905,
+        "time": 0.25359350393700786,
+        "status": "Show"
+      }, {
+        "id": "jt1951r9",
+        "name": "jt1951r9",
+        "x": 318.00402335586875,
+        "y": 228.3689649661968,
+        "width": 75.75402335586875,
+        "height": 54.63103503380319,
+        "time": 0.31307242063492063,
+        "status": "Show"
+      }, {
+        "id": "jt195v9l",
+        "name": "jt195v9l",
+        "x": 318.00402335586875,
+        "y": 228.3689649661968,
+        "width": 75.75402335586875,
+        "height": 54.63103503380319,
+        "time": 0.34623937007874017,
+        "status": "Hide"
+      }],
+      "children": [],
+      "parent": "jt1922xu"
+    }, {
+      "id": "jt192wyc",
+      "name": "jt192wyc",
+      "label": "1-1",
+      "color": "rgba(255,0,0,1)",
+      "trajectories": [{
+        "id": "jt192wyb",
+        "name": "jt192wyb",
+        "x": 274.25,
+        "y": 171.73792993239366,
+        "width": 40.75402335586878,
+        "height": 41.63103503380317,
+        "time": 0.0308226495726496,
+        "status": "Show"
+      }, {
+        "id": "jt19349x",
+        "name": "jt19349x",
+        "x": 271.25,
+        "y": 167.73792993239366,
+        "width": 60.75402335586875,
+        "height": 58.63103503380316,
+        "time": 0.03178472222222222,
+        "status": "Show"
+      }, {
+        "id": "jt193ekd",
+        "name": "jt193ekd",
+        "x": 274.25,
+        "y": 160.73792993239366,
+        "width": 60.75402335586875,
+        "height": 58.63103503380316,
+        "time": 0.06388611111111112,
+        "status": "Show"
+      }, {
+        "id": "jt193hp1",
+        "name": "jt193hp1",
+        "x": 280.25,
+        "y": 160.73792993239366,
+        "width": 60.75402335586875,
+        "height": 58.63103503380316,
+        "time": 0.08677242063492063,
+        "status": "Show"
+      }, {
+        "id": "jt194cbv",
+        "name": "jt194cbv",
+        "x": 280.1326975821677,
+        "y": 158.62062751456136,
+        "width": 60.75402335586875,
+        "height": 58.63103503380316,
+        "time": 0.1195857142857143,
+        "status": "Show"
+      }, {
+        "id": "jt193umg",
+        "name": "jt193umg",
+        "x": 274.25,
+        "y": 154.73792993239366,
+        "width": 60.75402335586875,
+        "height": 58.63103503380316,
+        "time": 0.13459007936507936,
+        "status": "Show"
+      }, {
+        "id": "jt193y7q",
+        "name": "jt193y7q",
+        "x": 268.25,
+        "y": 155.73792993239366,
+        "width": 60.75402335586875,
+        "height": 58.63103503380316,
+        "time": 0.1693952380952381,
+        "status": "Show"
+      }, {
+        "id": "jt194hxg",
+        "name": "jt194hxg",
+        "x": 260.25,
+        "y": 157.73792993239366,
+        "width": 60.75402335586875,
+        "height": 58.63103503380316,
+        "time": 0.20233392857142857,
+        "status": "Show"
+      }, {
+        "id": "jt194mj1",
+        "name": "jt194mj1",
+        "x": 253.25,
+        "y": 156.73792993239366,
+        "width": 60.75402335586875,
+        "height": 58.63103503380316,
+        "time": 0.22967083333333332,
+        "status": "Show"
+      }, {
+        "id": "jt195qgw",
+        "name": "jt195qgw",
+        "x": 246.25,
+        "y": 156.73792993239366,
+        "width": 63.66047805713703,
+        "height": 58.63103503380316,
+        "time": 0.25359350393700786,
+        "status": "Show"
+      }, {
+        "id": "jt194xqh",
+        "name": "jt194xqh",
+        "x": 253.25,
+        "y": 156.73792993239366,
+        "width": 52.75402335586875,
+        "height": 58.63103503380316,
+        "time": 0.27642281746031744,
+        "status": "Show"
+      }, {
+        "id": "jt1955u1",
+        "name": "jt1955u1",
+        "x": 265.25,
+        "y": 159.73792993239366,
+        "width": 40.75402335586875,
+        "height": 49.63103503380316,
+        "time": 0.3564833333333333,
+        "status": "Show"
+      }, {
+        "id": "jt195b3i",
+        "name": "jt195b3i",
+        "x": 265.25,
+        "y": 141.73792993239366,
+        "width": 40.75402335586875,
+        "height": 49.63103503380316,
+        "time": 0.45984980158730154,
+        "status": "Show"
+      }, {
+        "id": "jt1961v6",
+        "name": "jt1961v6",
+        "x": 269.25,
+        "y": 144.73792993239366,
+        "width": 40.75402335586875,
+        "height": 49.63103503380316,
+        "time": 0.47851751968503936,
+        "status": "Show"
+      }, {
+        "id": "jt1965az",
+        "name": "jt1965az",
+        "x": 262.25,
+        "y": 144.73792993239366,
+        "width": 47.75402335586875,
+        "height": 49.63103503380316,
+        "time": 0.5342496062992126,
+        "status": "Show"
+      }, {
+        "id": "jt1968nk",
+        "name": "jt1968nk",
+        "x": 262.25,
+        "y": 149.73792993239366,
+        "width": 47.75402335586875,
+        "height": 49.63103503380316,
+        "time": 0.5904106299212598,
+        "status": "Show"
+      }, {
+        "id": "jt196ax3",
+        "name": "jt196ax3",
+        "x": 270.25,
+        "y": 158.73792993239366,
+        "width": 47.75402335586875,
+        "height": 49.63103503380316,
+        "time": 0.6662596456692913,
+        "status": "Show"
+      }, {
+        "id": "jt196dys",
+        "name": "jt196dys",
+        "x": 268.25,
+        "y": 164.73792993239366,
+        "width": 47.75402335586875,
+        "height": 49.63103503380316,
+        "time": 0.7368370078740157,
+        "status": "Show"
+      }, {
+        "id": "jt196guu",
+        "name": "jt196guu",
+        "x": 272.25,
+        "y": 154.73792993239366,
+        "width": 47.75402335586875,
+        "height": 49.63103503380316,
+        "time": 0.801053937007874,
+        "status": "Show"
+      }, {
+        "id": "jt196k7h",
+        "name": "jt196k7h",
+        "x": 273.25,
+        "y": 157.73792993239366,
+        "width": 47.75402335586875,
+        "height": 49.63103503380316,
+        "time": 0.8626350393700787,
+        "status": "Show"
+      }],
+      "children": [],
+      "parent": "jt1922xu"
+    }, {
+      "id": "jt1922xu",
+      "name": "jt1922xu",
+      "label": "1",
+      "color": "rgba(255,219,0,1)",
+      "trajectories": [{
+        "id": "jt1922xu",
+        "name": "jt1922xu",
+        "x": 274.25,
+        "y": 174,
+        "width": 80,
+        "height": 81,
+        "time": 0,
+        "status": "Show"
+      }, {
+        "id": "jt192wyb",
+        "name": "jt192wyb",
+        "x": 274.25,
+        "y": 171.73792993239366,
+        "width": 81.50804671173756,
+        "height": 83.26207006760634,
+        "time": 0.0308226495726496,
+        "status": "Split"
+      }],
+      "children": ["jt192wyc", "jt192wyd"],
+      "parent": ""
+    }];
+    var previewNotices = ["Cells' body range.", "The time that cells <u>split</u>, <u>leave</u>, <u>obscured</u> and <u>show up</u> (if applicable)."];
+    var url = 'https://cildata.crbs.ucsd.edu/media/videos/50507/50507_web.mp4';
+    var annotationWidth = 600;
     _this.state = {
-      result: null
+      result: null,
+      input: {
+        annotations: _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(_annotations),
+        url: url,
+        annotationWidth: annotationWidth
+      },
+      params: {
+        annotations: _annotations,
+        url: url,
+        previewNotices: previewNotices,
+        annotationWidth: annotationWidth
+      }
     };
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Demo, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__["default"])(Demo, [{
     key: "render",
     value: function render() {
-      var result = this.state.result;
-      var previewNotices = ["Cells' body range.", "The time that cells <u>split</u>, <u>leave</u>, <u>obscured</u> and <u>show up</u> (if applicable)."];
-      var annotations = [{
-        "id": "jswwe8vl",
-        "name": "jswwe8vl",
-        "label": "3-2",
-        "color": "rgba(0,4,255,1)",
-        "trajectories": [{
-          "id": "jswwe8vj",
-          "name": "jswwe8vj",
-          "x": 110.5,
-          "y": 266,
-          "width": 60.5,
-          "height": 62,
-          "time": 0.202962662337662,
-          "status": "Show"
-        }, {
-          "id": "jswwerd4",
-          "name": "jswwerd4",
-          "x": 117.5,
-          "y": 273,
-          "width": 67.5,
-          "height": 60,
-          "time": 0.3348269333333333,
-          "status": "Show"
-        }, {
-          "id": "jswwfy46",
-          "name": "jswwfy46",
-          "x": 117.5,
-          "y": 264,
-          "width": 62.5,
-          "height": 60,
-          "time": 0.648538961038961,
-          "status": "Show"
-        }],
-        "children": [],
-        "parent": "jswwc3se"
-      }, {
-        "id": "jswwe8vk",
-        "name": "jswwe8vk",
-        "label": "3-1",
-        "color": "rgba(0,4,255,1)",
-        "trajectories": [{
-          "id": "jswwe8vj",
-          "name": "jswwe8vj",
-          "x": 79,
-          "y": 231,
-          "width": 56.5,
-          "height": 59,
-          "time": 0.202962662337662,
-          "status": "Show"
-        }, {
-          "id": "jswwetcn",
-          "name": "jswwetcn",
-          "x": 74,
-          "y": 216,
-          "width": 61.5,
-          "height": 74,
-          "time": 0.3348269333333333,
-          "status": "Show"
-        }, {
-          "id": "jswwf0su",
-          "name": "jswwf0su",
-          "x": 79,
-          "y": 224,
-          "width": 56.5,
-          "height": 60,
-          "time": 0.4524497777777778,
-          "status": "Show"
-        }],
-        "children": [],
-        "parent": "jswwc3se"
-      }, {
-        "id": "jswwck44",
-        "name": "jswwck44",
-        "label": "4-2",
-        "color": "rgba(0,4,255,1)",
-        "trajectories": [{
-          "id": "jswwck42",
-          "name": "jswwck42",
-          "x": 268,
-          "y": 230.5,
-          "width": 67,
-          "height": 64.5,
-          "time": 0.064448051948052,
-          "status": "Show"
-        }, {
-          "id": "jswwcsx5",
-          "name": "jswwcsx5",
-          "x": 276,
-          "y": 232.5,
-          "width": 67,
-          "height": 64.5,
-          "time": 0.11937937777777778,
-          "status": "Show"
-        }, {
-          "id": "jswwd49m",
-          "name": "jswwd49m",
-          "x": 276,
-          "y": 226.5,
-          "width": 68,
-          "height": 70.5,
-          "time": 0.1634536,
-          "status": "Show"
-        }, {
-          "id": "jswwdvqn",
-          "name": "jswwdvqn",
-          "x": 276,
-          "y": 214.5,
-          "width": 82,
-          "height": 82.5,
-          "time": 0.237337662337662,
-          "status": "Show"
-        }, {
-          "id": "jswwepmx",
-          "name": "jswwepmx",
-          "x": 276,
-          "y": 211.5,
-          "width": 68,
-          "height": 85.5,
-          "time": 0.3348269333333333,
-          "status": "Show"
-        }, {
-          "id": "jswwf3uh",
-          "name": "jswwf3uh",
-          "x": 276,
-          "y": 245.5,
-          "width": 55,
-          "height": 51.5,
-          "time": 0.4524497777777778,
-          "status": "Show"
-        }, {
-          "id": "jswwi0at",
-          "name": "jswwi0at",
-          "x": 286,
-          "y": 252.5,
-          "width": 45,
-          "height": 44.5,
-          "time": 0.607792207792208,
-          "status": "Show"
-        }, {
-          "id": "jswwhh2e",
-          "name": "jswwhh2e",
-          "x": 276,
-          "y": 245.5,
-          "width": 55,
-          "height": 51.5,
-          "time": 0.6875,
-          "status": "Hide"
-        }],
-        "children": [],
-        "parent": "jswwc78h"
-      }, {
-        "id": "jswwck43",
-        "name": "jswwck43",
-        "label": "4-1",
-        "color": "rgba(0,4,255,1)",
-        "trajectories": [{
-          "id": "jswwck42",
-          "name": "jswwck42",
-          "x": 239,
-          "y": 275,
-          "width": 56,
-          "height": 52.5,
-          "time": 0.064448051948052,
-          "status": "Show"
-        }, {
-          "id": "jswwcton",
-          "name": "jswwcton",
-          "x": 243,
-          "y": 276,
-          "width": 56,
-          "height": 52.5,
-          "time": 0.11937937777777778,
-          "status": "Show"
-        }, {
-          "id": "jswwd30l",
-          "name": "jswwd30l",
-          "x": 233,
-          "y": 276,
-          "width": 66,
-          "height": 61.5,
-          "time": 0.1634536,
-          "status": "Show"
-        }, {
-          "id": "jswwdu7z",
-          "name": "jswwdu7z",
-          "x": 212,
-          "y": 276,
-          "width": 87,
-          "height": 77.5,
-          "time": 0.237337662337662,
-          "status": "Show"
-        }, {
-          "id": "jswwegu1",
-          "name": "jswwegu1",
-          "x": 204,
-          "y": 276,
-          "width": 95,
-          "height": 81.5,
-          "time": 0.26695253333333335,
-          "status": "Show"
-        }, {
-          "id": "jswwenyl",
-          "name": "jswwenyl",
-          "x": 213,
-          "y": 278,
-          "width": 86,
-          "height": 79.5,
-          "time": 0.3348269333333333,
-          "status": "Show"
-        }, {
-          "id": "jswwglnf",
-          "name": "jswwglnf",
-          "x": 228,
-          "y": 264.5852976277977,
-          "width": 78.54577008436382,
-          "height": 81.91470237220233,
-          "time": 0.597849025974026,
-          "status": "Show"
-        }, {
-          "id": "jswwfqig",
-          "name": "jswwfqig",
-          "x": 213,
-          "y": 262,
-          "width": 95,
-          "height": 95.5,
-          "time": 0.648538961038961,
-          "status": "Show"
-        }, {
-          "id": "jswwhkq0",
-          "name": "jswwhkq0",
-          "x": 213,
-          "y": 262,
-          "width": 95,
-          "height": 95.5,
-          "time": 0.8460632888888889,
-          "status": "Hide"
-        }],
-        "children": [],
-        "parent": "jswwc78h"
-      }, {
-        "id": "jswwbsll",
-        "name": "jswwbsll",
-        "label": "1",
-        "color": "rgba(0,4,255,1)",
-        "trajectories": [{
-          "id": "jswwbsll",
-          "name": "jswwbsll",
-          "x": 50,
-          "y": 52,
-          "width": 125,
-          "height": 121,
-          "time": 0,
-          "status": "Show"
-        }, {
-          "id": "jswwcc88",
-          "name": "jswwcc88",
-          "x": 65,
-          "y": 58,
-          "width": 110,
-          "height": 115,
-          "time": 0.0640827922077922,
-          "status": "Show"
-        }, {
-          "id": "jswwcxzy",
-          "name": "jswwcxzy",
-          "x": 65,
-          "y": 64,
-          "width": 104,
-          "height": 96,
-          "time": 0.11937937777777778,
-          "status": "Show"
-        }, {
-          "id": "jswwda6q",
-          "name": "jswwda6q",
-          "x": 76,
-          "y": 73,
-          "width": 87,
-          "height": 79,
-          "time": 0.1634536,
-          "status": "Show"
-        }, {
-          "id": "jswwdxbu",
-          "name": "jswwdxbu",
-          "x": 92,
-          "y": 84,
-          "width": 65,
-          "height": 59,
-          "time": 0.237337662337662,
-          "status": "Show"
-        }, {
-          "id": "jswwex5k",
-          "name": "jswwex5k",
-          "x": 97,
-          "y": 80,
-          "width": 65,
-          "height": 59,
-          "time": 0.3348269333333333,
-          "status": "Show"
-        }],
-        "children": [],
-        "parent": ""
-      }, {
-        "id": "jswwc0xw",
-        "name": "jswwc0xw",
-        "label": "2",
-        "color": "rgba(227,0,255,1)",
-        "trajectories": [{
-          "id": "jswwc0xw",
-          "name": "jswwc0xw",
-          "x": 235,
-          "y": 82,
-          "width": 92,
-          "height": 86,
-          "time": 0,
-          "status": "Show"
-        }, {
-          "id": "jswwcvfg",
-          "name": "jswwcvfg",
-          "x": 239,
-          "y": 86,
-          "width": 77,
-          "height": 76,
-          "time": 0.11937937777777778,
-          "status": "Show"
-        }, {
-          "id": "jswwd6lc",
-          "name": "jswwd6lc",
-          "x": 250,
-          "y": 95,
-          "width": 64,
-          "height": 62,
-          "time": 0.1634536,
-          "status": "Show"
-        }, {
-          "id": "jswwe0cl",
-          "name": "jswwe0cl",
-          "x": 256,
-          "y": 99,
-          "width": 49,
-          "height": 47,
-          "time": 0.237337662337662,
-          "status": "Show"
-        }, {
-          "id": "jswwekgo",
-          "name": "jswwekgo",
-          "x": 256,
-          "y": 99,
-          "width": 55,
-          "height": 52,
-          "time": 0.26695253333333335,
-          "status": "Show"
-        }, {
-          "id": "jswwewez",
-          "name": "jswwewez",
-          "x": 264,
-          "y": 94,
-          "width": 55,
-          "height": 52,
-          "time": 0.3348269333333333,
-          "status": "Show"
-        }, {
-          "id": "jswwfg26",
-          "name": "jswwfg26",
-          "x": 258,
-          "y": 89,
-          "width": 61,
-          "height": 57,
-          "time": 0.525852272727273,
-          "status": "Show"
-        }, {
-          "id": "jswwhxtk",
-          "name": "jswwhxtk",
-          "x": 272.69335097585184,
-          "y": 108.36850810453195,
-          "width": 44.97088984452528,
-          "height": 40.30301025471383,
-          "time": 0.607792207792208,
-          "status": "Hide"
-        }, {
-          "id": "jswwfua2",
-          "name": "jswwfua2",
-          "x": 280,
-          "y": 118,
-          "width": 37,
-          "height": 32,
-          "time": 0.648538961038961,
-          "status": "Show"
-        }, {
-          "id": "jswwh89v",
-          "name": "jswwh89v",
-          "x": 280,
-          "y": 118,
-          "width": 37,
-          "height": 32,
-          "time": 0.672646103896104,
-          "status": "Hide"
-        }],
-        "children": [],
-        "parent": ""
-      }, {
-        "id": "jswwc3se",
-        "name": "jswwc3se",
-        "label": "3",
-        "color": "rgba(227,0,255,1)",
-        "trajectories": [{
-          "id": "jswwc3se",
-          "name": "jswwc3se",
-          "x": 84,
-          "y": 234,
-          "width": 91,
-          "height": 90,
-          "time": 0,
-          "status": "Show"
-        }, {
-          "id": "jswwe8vj",
-          "name": "jswwe8vj",
-          "x": 84,
-          "y": 234,
-          "width": 91,
-          "height": 90,
-          "time": 0.202962662337662,
-          "status": "Split"
-        }],
-        "children": ["jswwe8vk", "jswwe8vl"],
-        "parent": ""
-      }, {
-        "id": "jswwc78h",
-        "name": "jswwc78h",
-        "label": "4",
-        "color": "rgba(255,219,0,1)",
-        "trajectories": [{
-          "id": "jswwc78h",
-          "name": "jswwc78h",
-          "x": 239,
-          "y": 234,
-          "width": 90,
-          "height": 89,
-          "time": 0,
-          "status": "Show"
-        }, {
-          "id": "jswwck42",
-          "name": "jswwck42",
-          "x": 239,
-          "y": 234,
-          "width": 90,
-          "height": 89,
-          "time": 0.064448051948052,
-          "status": "Split"
-        }],
-        "children": ["jswwck43", "jswwck44"],
-        "parent": ""
-      }];
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Container"], {
+      var _this$state = this.state,
+          result = _this$state.result,
+          input = _this$state.input,
+          params = _this$state.params;
+      return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Container"], {
+        fluid: true,
         className: "py-3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 74
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h1", {
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h1", {
         className: "display-4  text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 75
         },
         __self: this
-      }, "Video Tool"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Row"], {
+      }, "Video Tool"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Form"], {
+        className: "mb-2 col-xs-12 col-lg-10 offset-lg-1",
+        onSubmit: this.handleSubmit,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["FormGroup"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Label"], {
+        for: "URL",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
+        },
+        __self: this
+      }, "Video Source URL"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Input"], {
+        type: "text",
+        name: "url",
+        placeholder: "http://...",
+        value: input.url,
+        onChange: this.handleChange,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["FormGroup"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Label"], {
+        for: "Annotation Width",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82
+        },
+        __self: this
+      }, "Annotation Width"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Input"], {
+        type: "text",
+        name: "annotationWidth",
+        placeholder: "number",
+        value: input.annotationWidth,
+        onChange: this.handleChange,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["FormGroup"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Label"], {
+        for: "exampleText",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86
+        },
+        __self: this
+      }, "Default Annotations"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Input"], {
+        type: "textarea",
+        name: "annotations",
+        placeholder: "[{id: .., name: .., label: .., color: .., trajectories: ..}, ..]",
+        value: input.annotations,
+        onChange: this.handleChange,
+        rows: 10,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Button"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
+        },
+        __self: this
+      }, "Submit")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Row"], {
+        className: "my-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Col"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Instructions, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Row"], {
         className: "py-3",
         style: {
           background: "rgb(246, 246, 246)"
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 96
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Col"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 97
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_annotation_tool__WEBPACK_IMPORTED_MODULE_9__["VideoTool"], {
-        onSubmit: this.handleSubmit,
-        url: "https://cildata.crbs.ucsd.edu/media/videos/15793/15793_web.mp4",
-        annotationWidth: 400,
-        annotations: annotations,
-        previewNotices: previewNotices,
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_annotation_tool__WEBPACK_IMPORTED_MODULE_11__["VideoTool"], {
+        key: "".concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(params.url), "\n\t\t\t\t\t\t\t\t ").concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(params.annotations), "\n\t\t\t\t\t\t\t\t ").concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(params.annotationWidth), "\n\t\t\t\t\t\t\t\t ").concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(params.previewNotices)),
+        onSubmit: this.handleResultSubmit,
+        url: params.url,
+        annotations: params.annotations,
+        annotationWidth: params.annotationWidth,
+        previewNotices: params.previewNotices,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 98
         },
         __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Row"], {
-        className: "my-3",
+      }))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Row"], {
+        className: "my-3 col-xs-12 col-lg-10 offset-lg-1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 113
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Col"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 114
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Card"], {
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Card"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 115
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["CardBody"], {
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["CardBody"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 116
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["CardTitle"], {
+      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["CardTitle"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 117
         },
         __self: this
-      }, "Output"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["CardText"], {
+      }, "Result"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["CardText"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 118
         },
         __self: this
       }, _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(result, null, 2)))))));
@@ -600,7 +675,7 @@ function (_Component) {
   }]);
 
   return Demo;
-}(react__WEBPACK_IMPORTED_MODULE_8__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_10__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Demo);
 
@@ -614,6 +689,39 @@ function (_Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "./node_modules/core-js/library/fn/json/stringify.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-symbols */ "./node_modules/core-js/library/fn/object/get-own-property-symbols.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/parse-int.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/parse-int */ "./node_modules/core-js/library/fn/parse-int.js");
 
 /***/ }),
 
@@ -643,6 +751,49 @@ function _defineProperty(obj, key, value) {
   }
 
   return obj;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectSpread; });
+/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
+/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
+/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+
+
+
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    var ownKeys = _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(source);
+
+    if (typeof _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default.a === 'function') {
+      ownKeys = ownKeys.concat(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default()(source).filter(function (sym) {
+        return _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default()(source, sym).enumerable;
+      }));
+    }
+
+    ownKeys.forEach(function (key) {
+      Object(_defineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(target, key, source[key]);
+    });
+  }
+
+  return target;
 }
 
 /***/ }),
@@ -738,6 +889,157 @@ var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
 module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
   return $JSON.stringify.apply($JSON, arguments);
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/get-own-property-descriptor.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.get-own-property-descriptor */ "./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js");
+var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object;
+module.exports = function getOwnPropertyDescriptor(it, key) {
+  return $Object.getOwnPropertyDescriptor(it, key);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/get-own-property-symbols.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/get-own-property-symbols.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.symbol */ "./node_modules/core-js/library/modules/es6.symbol.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getOwnPropertySymbols;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/parse-int.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/library/fn/parse-int.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/es6.parse-int */ "./node_modules/core-js/library/modules/es6.parse-int.js");
+module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/core-js/library/modules/_core.js").parseInt;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_parse-int.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_parse-int.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $parseInt = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").parseInt;
+var $trim = __webpack_require__(/*! ./_string-trim */ "./node_modules/core-js/library/modules/_string-trim.js").trim;
+var ws = __webpack_require__(/*! ./_string-ws */ "./node_modules/core-js/library/modules/_string-ws.js");
+var hex = /^[-+]?0[xX]/;
+
+module.exports = $parseInt(ws + '08') !== 8 || $parseInt(ws + '0x16') !== 22 ? function parseInt(str, radix) {
+  var string = $trim(String(str), 3);
+  return $parseInt(string, (radix >>> 0) || (hex.test(string) ? 16 : 10));
+} : $parseInt;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_string-trim.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_string-trim.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var defined = __webpack_require__(/*! ./_defined */ "./node_modules/core-js/library/modules/_defined.js");
+var fails = __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js");
+var spaces = __webpack_require__(/*! ./_string-ws */ "./node_modules/core-js/library/modules/_string-ws.js");
+var space = '[' + spaces + ']';
+var non = '\u200b\u0085';
+var ltrim = RegExp('^' + space + space + '*');
+var rtrim = RegExp(space + space + '*$');
+
+var exporter = function (KEY, exec, ALIAS) {
+  var exp = {};
+  var FORCE = fails(function () {
+    return !!spaces[KEY]() || non[KEY]() != non;
+  });
+  var fn = exp[KEY] = FORCE ? exec(trim) : spaces[KEY];
+  if (ALIAS) exp[ALIAS] = fn;
+  $export($export.P + $export.F * FORCE, 'String', exp);
+};
+
+// 1 -> String#trimLeft
+// 2 -> String#trimRight
+// 3 -> String#trim
+var trim = exporter.trim = function (string, TYPE) {
+  string = String(defined(string));
+  if (TYPE & 1) string = string.replace(ltrim, '');
+  if (TYPE & 2) string = string.replace(rtrim, '');
+  return string;
+};
+
+module.exports = exporter;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_string-ws.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_string-ws.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u2003' +
+  '\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000\u2028\u2029\uFEFF';
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
+var $getOwnPropertyDescriptor = __webpack_require__(/*! ./_object-gopd */ "./node_modules/core-js/library/modules/_object-gopd.js").f;
+
+__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('getOwnPropertyDescriptor', function () {
+  return function getOwnPropertyDescriptor(it, key) {
+    return $getOwnPropertyDescriptor(toIObject(it), key);
+  };
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.parse-int.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.parse-int.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var $parseInt = __webpack_require__(/*! ./_parse-int */ "./node_modules/core-js/library/modules/_parse-int.js");
+// 18.2.5 parseInt(string, radix)
+$export($export.G + $export.F * (parseInt != $parseInt), { parseInt: $parseInt });
 
 
 /***/ }),
