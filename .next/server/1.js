@@ -1,10 +1,10 @@
 exports.ids = [1];
 exports.modules = {
 
-/***/ "./components/VideoAnnotationDemo.js":
-/*!*******************************************!*\
-  !*** ./components/VideoAnnotationDemo.js ***!
-  \*******************************************/
+/***/ "./components/imageAnnotationDemo/ImageAnnotationDemo.js":
+/*!***************************************************************!*\
+  !*** ./components/imageAnnotationDemo/ImageAnnotationDemo.js ***!
+  \***************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12,22 +12,19 @@ exports.modules = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_annotation_tool__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-annotation-tool */ "react-annotation-tool");
-/* harmony import */ var react_annotation_tool__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_annotation_tool__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! reactstrap */ "reactstrap");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_annotation_tool__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-annotation-tool */ "react-annotation-tool");
+/* harmony import */ var react_annotation_tool__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_annotation_tool__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_10__);
 
 
 
@@ -36,10 +33,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-var _jsxFileName = "/home/production/chi-lin/components/VideoAnnotationDemo.js";
-
+var _jsxFileName = "/home/production/chi-lin/components/imageAnnotationDemo/ImageAnnotationDemo.js";
 
 
 
@@ -47,629 +41,269 @@ var _jsxFileName = "/home/production/chi-lin/components/VideoAnnotationDemo.js";
 var Demo =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_8__["default"])(Demo, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Demo, _Component);
 
   function Demo(props) {
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Demo);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Demo);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(Demo).call(this, props));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Demo).call(this, props));
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "handleResultSubmit", function (result) {
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "handleSubmit", function (r) {
       _this.setState({
-        result: result
+        result: r
       });
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "handleChange", function (event) {
-      var target = event.target;
-      var name = target.name;
-      var value = target.type === "checkbox" ? target.checked : target.value;
-
-      _this.setState(function (preState) {
-        var input = preState.input;
-        return {
-          input: Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_2__["default"])({}, input, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])({}, name, value))
-        };
-      });
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "handleSubmit", function (event) {
-      event.preventDefault();
-
-      _this.setState(function (preState) {
-        var input = preState.input;
-        var annotations = _this.isJsonString(input.annotations) ? input.annotations : "[]";
-        return {
-          params: {
-            annotations: JSON.parse(annotations),
-            url: input.url,
-            annotationWidth: _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default()(input.annotationWidth, 10)
-          }
-        };
-      });
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "isJsonString", function (str) {
-      try {
-        JSON.parse(str);
-      } catch (e) {
-        return false;
-      }
-
-      return true;
-    });
-
-    var _annotations = [{
-      "id": "jt192wyd",
-      "name": "jt192wyd",
-      "label": "1-2",
-      "color": "rgba(255,0,0,1)",
-      "trajectories": [{
-        "id": "jt192wyb",
-        "name": "jt192wyb",
-        "x": 295.00402335586875,
-        "y": 193.3689649661968,
-        "width": 40.75402335586878,
-        "height": 41.63103503380317,
-        "time": 0.0308226495726496,
-        "status": "Show"
-      }, {
-        "id": "jt1930nb",
-        "name": "jt1930nb",
-        "x": 304.00402335586875,
-        "y": 202.3689649661968,
-        "width": 58.75402335586875,
-        "height": 60.63103503380319,
-        "time": 0.03178472222222222,
-        "status": "Show"
-      }, {
-        "id": "jt193fim",
-        "name": "jt193fim",
-        "x": 309.00402335586875,
-        "y": 213.3689649661968,
-        "width": 58.75402335586875,
-        "height": 60.63103503380319,
-        "time": 0.06388611111111112,
-        "status": "Show"
-      }, {
-        "id": "jt193ijo",
-        "name": "jt193ijo",
-        "x": 320.00402335586875,
-        "y": 220.3689649661968,
-        "width": 58.75402335586875,
-        "height": 74.63103503380319,
-        "time": 0.08677242063492063,
-        "status": "Show"
-      }, {
-        "id": "jt19484m",
-        "name": "jt19484m",
-        "x": 320.48992156587633,
-        "y": 218.42537212616642,
-        "width": 60.697616195899116,
-        "height": 78.17334040378043,
-        "time": 0.0966718253968254,
-        "status": "Show"
-      }, {
-        "id": "jt193o4y",
-        "name": "jt193o4y",
-        "x": 321.00402335586875,
-        "y": 216.3689649661968,
-        "width": 62.75402335586875,
-        "height": 71.63103503380319,
-        "time": 0.10714583333333334,
-        "status": "Show"
-      }, {
-        "id": "jt194dom",
-        "name": "jt194dom",
-        "x": 321.00402335586875,
-        "y": 218.8083044640243,
-        "width": 62.75402335586875,
-        "height": 69.1916955359757,
-        "time": 0.1195857142857143,
-        "status": "Show"
-      }, {
-        "id": "jt193taw",
-        "name": "jt193taw",
-        "x": 321.00402335586875,
-        "y": 228.3689649661968,
-        "width": 62.75402335586875,
-        "height": 59.63103503380319,
-        "time": 0.13459007936507936,
-        "status": "Show"
-      }, {
-        "id": "jt193zb4",
-        "name": "jt193zb4",
-        "x": 318.00402335586875,
-        "y": 228.3689649661968,
-        "width": 81.75402335586875,
-        "height": 59.63103503380319,
-        "time": 0.1693952380952381,
-        "status": "Show"
-      }, {
-        "id": "jt195ltz",
-        "name": "jt195ltz",
-        "x": 328.2874098641244,
-        "y": 230.6523514744525,
-        "width": 70.85164231813906,
-        "height": 56.631035033803215,
-        "time": 0.1985523622047244,
-        "status": "Show"
-      }, {
-        "id": "jt194trg",
-        "name": "jt194trg",
-        "x": 322.00402335586875,
-        "y": 232.3689649661968,
-        "width": 76.66967862975952,
-        "height": 59.63103503380319,
-        "time": 0.22047222222222224,
-        "status": "Show"
-      }, {
-        "id": "jt194lgm",
-        "name": "jt194lgm",
-        "x": 318.00402335586875,
-        "y": 228.3689649661968,
-        "width": 75.75402335586875,
-        "height": 59.63103503380319,
-        "time": 0.22967083333333332,
-        "status": "Show"
-      }, {
-        "id": "jt195p7m",
-        "name": "jt195p7m",
-        "x": 318.00402335586875,
-        "y": 228.3689649661968,
-        "width": 68.75402335586875,
-        "height": 58.19684946385905,
-        "time": 0.25359350393700786,
-        "status": "Show"
-      }, {
-        "id": "jt1951r9",
-        "name": "jt1951r9",
-        "x": 318.00402335586875,
-        "y": 228.3689649661968,
-        "width": 75.75402335586875,
-        "height": 54.63103503380319,
-        "time": 0.31307242063492063,
-        "status": "Show"
-      }, {
-        "id": "jt195v9l",
-        "name": "jt195v9l",
-        "x": 318.00402335586875,
-        "y": 228.3689649661968,
-        "width": 75.75402335586875,
-        "height": 54.63103503380319,
-        "time": 0.34623937007874017,
-        "status": "Hide"
-      }],
-      "children": [],
-      "parent": "jt1922xu"
-    }, {
-      "id": "jt192wyc",
-      "name": "jt192wyc",
-      "label": "1-1",
-      "color": "rgba(255,0,0,1)",
-      "trajectories": [{
-        "id": "jt192wyb",
-        "name": "jt192wyb",
-        "x": 274.25,
-        "y": 171.73792993239366,
-        "width": 40.75402335586878,
-        "height": 41.63103503380317,
-        "time": 0.0308226495726496,
-        "status": "Show"
-      }, {
-        "id": "jt19349x",
-        "name": "jt19349x",
-        "x": 271.25,
-        "y": 167.73792993239366,
-        "width": 60.75402335586875,
-        "height": 58.63103503380316,
-        "time": 0.03178472222222222,
-        "status": "Show"
-      }, {
-        "id": "jt193ekd",
-        "name": "jt193ekd",
-        "x": 274.25,
-        "y": 160.73792993239366,
-        "width": 60.75402335586875,
-        "height": 58.63103503380316,
-        "time": 0.06388611111111112,
-        "status": "Show"
-      }, {
-        "id": "jt193hp1",
-        "name": "jt193hp1",
-        "x": 280.25,
-        "y": 160.73792993239366,
-        "width": 60.75402335586875,
-        "height": 58.63103503380316,
-        "time": 0.08677242063492063,
-        "status": "Show"
-      }, {
-        "id": "jt194cbv",
-        "name": "jt194cbv",
-        "x": 280.1326975821677,
-        "y": 158.62062751456136,
-        "width": 60.75402335586875,
-        "height": 58.63103503380316,
-        "time": 0.1195857142857143,
-        "status": "Show"
-      }, {
-        "id": "jt193umg",
-        "name": "jt193umg",
-        "x": 274.25,
-        "y": 154.73792993239366,
-        "width": 60.75402335586875,
-        "height": 58.63103503380316,
-        "time": 0.13459007936507936,
-        "status": "Show"
-      }, {
-        "id": "jt193y7q",
-        "name": "jt193y7q",
-        "x": 268.25,
-        "y": 155.73792993239366,
-        "width": 60.75402335586875,
-        "height": 58.63103503380316,
-        "time": 0.1693952380952381,
-        "status": "Show"
-      }, {
-        "id": "jt194hxg",
-        "name": "jt194hxg",
-        "x": 260.25,
-        "y": 157.73792993239366,
-        "width": 60.75402335586875,
-        "height": 58.63103503380316,
-        "time": 0.20233392857142857,
-        "status": "Show"
-      }, {
-        "id": "jt194mj1",
-        "name": "jt194mj1",
-        "x": 253.25,
-        "y": 156.73792993239366,
-        "width": 60.75402335586875,
-        "height": 58.63103503380316,
-        "time": 0.22967083333333332,
-        "status": "Show"
-      }, {
-        "id": "jt195qgw",
-        "name": "jt195qgw",
-        "x": 246.25,
-        "y": 156.73792993239366,
-        "width": 63.66047805713703,
-        "height": 58.63103503380316,
-        "time": 0.25359350393700786,
-        "status": "Show"
-      }, {
-        "id": "jt194xqh",
-        "name": "jt194xqh",
-        "x": 253.25,
-        "y": 156.73792993239366,
-        "width": 52.75402335586875,
-        "height": 58.63103503380316,
-        "time": 0.27642281746031744,
-        "status": "Show"
-      }, {
-        "id": "jt1955u1",
-        "name": "jt1955u1",
-        "x": 265.25,
-        "y": 159.73792993239366,
-        "width": 40.75402335586875,
-        "height": 49.63103503380316,
-        "time": 0.3564833333333333,
-        "status": "Show"
-      }, {
-        "id": "jt195b3i",
-        "name": "jt195b3i",
-        "x": 265.25,
-        "y": 141.73792993239366,
-        "width": 40.75402335586875,
-        "height": 49.63103503380316,
-        "time": 0.45984980158730154,
-        "status": "Show"
-      }, {
-        "id": "jt1961v6",
-        "name": "jt1961v6",
-        "x": 269.25,
-        "y": 144.73792993239366,
-        "width": 40.75402335586875,
-        "height": 49.63103503380316,
-        "time": 0.47851751968503936,
-        "status": "Show"
-      }, {
-        "id": "jt1965az",
-        "name": "jt1965az",
-        "x": 262.25,
-        "y": 144.73792993239366,
-        "width": 47.75402335586875,
-        "height": 49.63103503380316,
-        "time": 0.5342496062992126,
-        "status": "Show"
-      }, {
-        "id": "jt1968nk",
-        "name": "jt1968nk",
-        "x": 262.25,
-        "y": 149.73792993239366,
-        "width": 47.75402335586875,
-        "height": 49.63103503380316,
-        "time": 0.5904106299212598,
-        "status": "Show"
-      }, {
-        "id": "jt196ax3",
-        "name": "jt196ax3",
-        "x": 270.25,
-        "y": 158.73792993239366,
-        "width": 47.75402335586875,
-        "height": 49.63103503380316,
-        "time": 0.6662596456692913,
-        "status": "Show"
-      }, {
-        "id": "jt196dys",
-        "name": "jt196dys",
-        "x": 268.25,
-        "y": 164.73792993239366,
-        "width": 47.75402335586875,
-        "height": 49.63103503380316,
-        "time": 0.7368370078740157,
-        "status": "Show"
-      }, {
-        "id": "jt196guu",
-        "name": "jt196guu",
-        "x": 272.25,
-        "y": 154.73792993239366,
-        "width": 47.75402335586875,
-        "height": 49.63103503380316,
-        "time": 0.801053937007874,
-        "status": "Show"
-      }, {
-        "id": "jt196k7h",
-        "name": "jt196k7h",
-        "x": 273.25,
-        "y": 157.73792993239366,
-        "width": 47.75402335586875,
-        "height": 49.63103503380316,
-        "time": 0.8626350393700787,
-        "status": "Show"
-      }],
-      "children": [],
-      "parent": "jt1922xu"
-    }, {
-      "id": "jt1922xu",
-      "name": "jt1922xu",
-      "label": "1",
-      "color": "rgba(255,219,0,1)",
-      "trajectories": [{
-        "id": "jt1922xu",
-        "name": "jt1922xu",
-        "x": 274.25,
-        "y": 174,
-        "width": 80,
-        "height": 81,
-        "time": 0,
-        "status": "Show"
-      }, {
-        "id": "jt192wyb",
-        "name": "jt192wyb",
-        "x": 274.25,
-        "y": 171.73792993239366,
-        "width": 81.50804671173756,
-        "height": 83.26207006760634,
-        "time": 0.0308226495726496,
-        "status": "Split"
-      }],
-      "children": ["jt192wyc", "jt192wyd"],
-      "parent": ""
-    }];
-    var previewNotices = ["Cells' body range.", "The time that cells <u>split</u>, <u>leave</u>, <u>obscured</u> and <u>show up</u> (if applicable)."];
-    var url = 'https://cildata.crbs.ucsd.edu/media/videos/50507/50507_web.mp4';
-    var annotationWidth = 600;
     _this.state = {
-      result: null,
-      input: {
-        annotations: _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(_annotations),
-        url: url,
-        annotationWidth: annotationWidth
-      },
-      params: {
-        annotations: _annotations,
-        url: url,
-        previewNotices: previewNotices,
-        annotationWidth: annotationWidth
-      }
+      result: null
     };
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__["default"])(Demo, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Demo, [{
     key: "render",
     value: function render() {
-      var _this$state = this.state,
-          result = _this$state.result,
-          input = _this$state.input,
-          params = _this$state.params;
-      return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Container"], {
-        fluid: true,
+      var result = this.state.result;
+      var annotations = [{
+        "id": "jlvnw6az",
+        "name": "jlvnw6az",
+        "closed": true,
+        "color": "rgba(227,0,255,1)",
+        "vertices": [{
+          "id": "jlvnw6az",
+          "name": "jlvnw6az",
+          "x": 189.5625,
+          "y": 201
+        }, {
+          "id": "jlvnw8qs",
+          "name": "jlvnw8qs",
+          "x": 309.25,
+          "y": 200
+        }, {
+          "id": "jlvnw9vp",
+          "name": "jlvnw9vp",
+          "x": 313.25,
+          "y": 203
+        }, {
+          "id": "jlvnwbvk",
+          "name": "jlvnwbvk",
+          "x": 316.25,
+          "y": 288
+        }, {
+          "id": "jlvnwczb",
+          "name": "jlvnwczb",
+          "x": 310.25,
+          "y": 292
+        }, {
+          "id": "jlvnwfhm",
+          "name": "jlvnwfhm",
+          "x": 187.25,
+          "y": 294
+        }, {
+          "id": "jlvnwgoe",
+          "name": "jlvnwgoe",
+          "x": 181.25,
+          "y": 290
+        }, {
+          "id": "jlvnwidd",
+          "name": "jlvnwidd",
+          "x": 183.25,
+          "y": 205
+        }],
+        "selected": [{
+          "id": "0",
+          "value": "root"
+        }, {
+          "id": "1",
+          "value": "Electronic"
+        }, {
+          "id": "1-1",
+          "value": "Laptop"
+        }, {
+          "id": "1-1-1",
+          "value": "Apple"
+        }]
+      }, {
+        "id": "jlvnxa79",
+        "name": "jlvnxa79",
+        "color": "rgba(0,255,81,1)",
+        "closed": true,
+        "vertices": [{
+          "id": "jlvnxa79",
+          "name": "jlvnxa79",
+          "x": 369.25,
+          "y": 350.5
+        }, {
+          "id": "jlvnxbct",
+          "name": "jlvnxbct",
+          "x": 372.25,
+          "y": 343.5
+        }, {
+          "id": "jlvnxcg6",
+          "name": "jlvnxcg6",
+          "x": 387.25,
+          "y": 341
+        }, {
+          "id": "jlvnxdic",
+          "name": "jlvnxdic",
+          "x": 393.25,
+          "y": 343
+        }, {
+          "id": "jlvnxfp2",
+          "name": "jlvnxfp2",
+          "x": 424.25,
+          "y": 342
+        }, {
+          "id": "jlvnxgfx",
+          "name": "jlvnxgfx",
+          "x": 426.25,
+          "y": 347
+        }, {
+          "id": "jlvnxjd8",
+          "name": "jlvnxjd8",
+          "x": 381.25,
+          "y": 350
+        }],
+        "selected": [{
+          "id": "0",
+          "value": "root"
+        }, {
+          "id": "2",
+          "value": "Stationery"
+        }, {
+          "id": "2-1",
+          "value": "Pen"
+        }]
+      }];
+      var menu = {
+        id: "0",
+        value: "root",
+        options: [{
+          id: "1",
+          value: "Electronic",
+          options: [{
+            id: "1-1",
+            value: "Laptop",
+            options: [{
+              id: "1-1-1",
+              value: "Apple",
+              options: []
+            }, {
+              id: "1-1-2",
+              value: "Asus",
+              options: []
+            }]
+          }, {
+            id: "1-2",
+            value: "Charger",
+            options: []
+          }, {
+            id: "1-3",
+            value: "Wire",
+            options: []
+          }, {
+            id: "1-4",
+            value: "Watch",
+            options: []
+          }]
+        }, {
+          id: "2",
+          value: "Stationery",
+          options: [{
+            id: "2-1",
+            value: "Pen",
+            options: []
+          }, {
+            id: "2-2",
+            value: "Eraser",
+            options: []
+          }]
+        }]
+      };
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Container"], {
         className: "py-3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 38
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("h1", {
-        className: "display-4  text-center",
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h1", {
+        className: "display-4 text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 39
         },
         __self: this
-      }, "Video Tool"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Form"], {
-        className: "mb-2 col-xs-12 col-lg-10 offset-lg-1",
-        onSubmit: this.handleSubmit,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["FormGroup"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Label"], {
-        for: "URL",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
-      }, "Video Source URL"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Input"], {
-        type: "text",
-        name: "url",
-        placeholder: "http://...",
-        value: input.url,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 79
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["FormGroup"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Label"], {
-        for: "Annotation Width",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 82
-        },
-        __self: this
-      }, "Annotation Width"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Input"], {
-        type: "text",
-        name: "annotationWidth",
-        placeholder: "number",
-        value: input.annotationWidth,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["FormGroup"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Label"], {
-        for: "exampleText",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
-      }, "Default Annotations"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Input"], {
-        type: "textarea",
-        name: "annotations",
-        placeholder: "[{id: .., name: .., label: .., color: .., trajectories: ..}, ..]",
-        value: input.annotations,
-        onChange: this.handleChange,
-        rows: 10,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Button"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        },
-        __self: this
-      }, "Submit")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Row"], {
-        className: "my-3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Col"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 92
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Instructions, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Row"], {
+      }, "Image Tool"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Row"], {
         className: "py-3",
         style: {
           background: "rgb(246, 246, 246)"
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 40
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 41
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_annotation_tool__WEBPACK_IMPORTED_MODULE_11__["VideoTool"], {
-        key: "".concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(params.url), "\n\t\t\t\t\t\t\t\t ").concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(params.annotations), "\n\t\t\t\t\t\t\t\t ").concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(params.annotationWidth), "\n\t\t\t\t\t\t\t\t ").concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(params.previewNotices)),
-        onSubmit: this.handleResultSubmit,
-        url: params.url,
-        annotations: params.annotations,
-        annotationWidth: params.annotationWidth,
-        previewNotices: params.previewNotices,
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_annotation_tool__WEBPACK_IMPORTED_MODULE_9__["ImageTool"], {
+        annotationWidth: 500,
+        onNextClick: this.handleSubmit,
+        onPreviousClick: this.handleSubmit,
+        onSkipClick: this.handleSubmit,
+        menu: menu,
+        category: "Others",
+        categoryOptions: ["No Objects", "No Image"],
+        dynamicOptions: true,
+        annotations: annotations,
+        disabledOptionLevels: [1],
+        url: "https://images.pexels.com/photos/57750/pexels-photo-57750.jpeg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 42
         },
         __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Row"], {
-        className: "my-3 col-xs-12 col-lg-10 offset-lg-1",
+      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Row"], {
+        className: "my-3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 56
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 57
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["Card"], {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Card"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115
+          lineNumber: 58
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["CardBody"], {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["CardBody"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116
+          lineNumber: 59
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["CardTitle"], {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["CardTitle"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 60
         },
         __self: this
-      }, "Result"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__["CardText"], {
+      }, "Output"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__["CardText"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118
+          lineNumber: 61
         },
         __self: this
       }, _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(result, null, 2)))))));
@@ -677,7 +311,7 @@ function (_Component) {
   }]);
 
   return Demo;
-}(react__WEBPACK_IMPORTED_MODULE_10__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_8__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Demo);
 
@@ -691,50 +325,6 @@ function (_Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "core-js/library/fn/json/stringify");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js ***!
-  \*******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "core-js/library/fn/object/get-own-property-descriptor");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-symbols */ "core-js/library/fn/object/get-own-property-symbols");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/keys.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "core-js/library/fn/object/keys");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/parse-int.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/parse-int */ "core-js/library/fn/parse-int");
 
 /***/ }),
 
@@ -764,49 +354,6 @@ function _defineProperty(obj, key, value) {
   }
 
   return obj;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js ***!
-  \*************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectSpread; });
-/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
-/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
-/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-
-
-
-
-function _objectSpread(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? arguments[i] : {};
-
-    var ownKeys = _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(source);
-
-    if (typeof _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default.a === 'function') {
-      ownKeys = ownKeys.concat(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default()(source).filter(function (sym) {
-        return _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default()(source, sym).enumerable;
-      }));
-    }
-
-    ownKeys.forEach(function (key) {
-      Object(_defineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(target, key, source[key]);
-    });
-  }
-
-  return target;
 }
 
 /***/ })

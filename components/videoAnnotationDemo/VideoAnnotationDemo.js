@@ -12,15 +12,17 @@ class Demo extends Component {
 		const previewNotices = ["Cells' body range.", "The time that cells <u>split</u>, <u>leave</u>, <u>obscured</u> and <u>show up</u> (if applicable)."];
 		const url = 'https://cildata.crbs.ucsd.edu/media/videos/50507/50507_web.mp4';
 		const annotationWidth = 600;
+		this.fileInput = React.createRef();
 		this.state = {
 			result: null,
 			input: {
 				annotations: JSON.stringify(annotations),
 				url: url,
-				annotationWidth: annotationWidth
+				annotationWidth: annotationWidth,
+				uploadedData: null,
 			 },
 			params: {
-				annotations: annotations,
+				annotations: [],
 				url: url,
 				previewNotices: previewNotices,
 				annotationWidth: annotationWidth
@@ -45,13 +47,36 @@ class Demo extends Component {
 		})
     }
 
-    handleSubmit = event => {
+    handleSubmit = async event => {
 		event.preventDefault();
-	  	this.setState((preState) => {
+		let annotations = [];
+		if (this.fileInput.current.files[0]) {
+			const readFilePromise = new Promise( (resolve, reject) => {
+				const fileReader = new FileReader();
+				fileReader.onload = event => {
+					if (!this.isJsonString(event.target.result))
+						reject('Wrong json format');
+
+					let result = JSON.parse(event.target.result);
+					//do something here to discard unnecessary data in the file
+
+					resolve( result )
+				}
+				fileReader.onerror = event => {
+					reject(event);
+				}
+				fileReader.readAsText(this.fileInput.current.files[0]);
+			})
+			annotations = await readFilePromise;
+		}
+
+	  	this.setState( (preState) => {
 				const { input } = preState;
-				const annotations = this.isJsonString(input.annotations) ? input.annotations : "[]";
+				if (annotations.length === 0) {
+					annotations = this.isJsonString(input.annotations) ? JSON.parse(input.annotations) : [];
+				}
 		  		return { params: {
-							annotations: JSON.parse(annotations),
+							annotations: annotations,
 							url: input.url,
 							annotationWidth: parseInt(input.annotationWidth, 10)
 						}
@@ -86,6 +111,10 @@ class Demo extends Component {
 					<FormGroup>
 						<Label for="exampleText">Default Annotations</Label>
 			            <Input type="textarea" name="annotations" placeholder="[{id: .., name: .., label: .., color: .., trajectories: ..}, ..]" value={input.annotations} onChange={this.handleChange} rows={10}/>
+			        </FormGroup>
+					<FormGroup>
+			          <Label for="exampleFile" className="pr-2">or Upload Default Annotations</Label>
+			          <input type="file" name="file" id="exampleFile" ref={this.fileInput} />
 			        </FormGroup>
         			<Button>Submit</Button>
 			    </Form>

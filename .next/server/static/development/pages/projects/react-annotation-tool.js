@@ -121,7 +121,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -525,7 +525,7 @@ var _jsxFileName = "/home/production/chi-lin/pages/projects/react-annotation-too
 
 
 var DynamicImageComponent = next_server_dynamic__WEBPACK_IMPORTED_MODULE_8___default()(function () {
-  return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../../components/imageAnnotationDemo/ImageAnnotationDemo.js */ "./components/imageAnnotationDemo/ImageAnnotationDemo.js"));
+  return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../../components/imageAnnotationDemo/ImageAnnotationDemo.js */ "./components/imageAnnotationDemo/ImageAnnotationDemo.js"));
 }, {
   ssr: false,
   loadableGenerated: {
@@ -536,7 +536,7 @@ var DynamicImageComponent = next_server_dynamic__WEBPACK_IMPORTED_MODULE_8___def
   }
 });
 var DynamicVideoComponent = next_server_dynamic__WEBPACK_IMPORTED_MODULE_8___default()(function () {
-  return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../../components/videoAnnotationDemo/VideoAnnotationDemo.js */ "./components/videoAnnotationDemo/VideoAnnotationDemo.js"));
+  return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ../../components/videoAnnotationDemo/VideoAnnotationDemo.js */ "./components/videoAnnotationDemo/VideoAnnotationDemo.js"));
 }, {
   ssr: false,
   loadableGenerated: {
@@ -650,7 +650,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*******************************************************!*\
   !*** multi ./pages/projects/react-annotation-tool.js ***!
   \*******************************************************/

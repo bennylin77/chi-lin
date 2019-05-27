@@ -5335,7 +5335,7 @@ var _jsxFileName = "/home/production/chi-lin/pages/projects/react-annotation-too
 
 
 var DynamicImageComponent = next_server_dynamic__WEBPACK_IMPORTED_MODULE_8___default()(function () {
-  return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../../components/imageAnnotationDemo/ImageAnnotationDemo.js */ "./components/imageAnnotationDemo/ImageAnnotationDemo.js"));
+  return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../../components/imageAnnotationDemo/ImageAnnotationDemo.js */ "./components/imageAnnotationDemo/ImageAnnotationDemo.js"));
 }, {
   ssr: false,
   loadableGenerated: {
@@ -5346,7 +5346,7 @@ var DynamicImageComponent = next_server_dynamic__WEBPACK_IMPORTED_MODULE_8___def
   }
 });
 var DynamicVideoComponent = next_server_dynamic__WEBPACK_IMPORTED_MODULE_8___default()(function () {
-  return Promise.all(/*! import() */[__webpack_require__.e("styles"), __webpack_require__.e(3)]).then(__webpack_require__.bind(null, /*! ../../components/videoAnnotationDemo/VideoAnnotationDemo.js */ "./components/videoAnnotationDemo/VideoAnnotationDemo.js"));
+  return Promise.all(/*! import() */[__webpack_require__.e("styles"), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! ../../components/videoAnnotationDemo/VideoAnnotationDemo.js */ "./components/videoAnnotationDemo/VideoAnnotationDemo.js"));
 }, {
   ssr: false,
   loadableGenerated: {
@@ -5460,7 +5460,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*****************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects%2Freact-annotation-tool&absolutePagePath=%2Fhome%2Fproduction%2Fchi-lin%2Fpages%2Fprojects%2Freact-annotation-tool.js ***!
   \*****************************************************************************************************************************************************************************/
@@ -5483,5 +5483,5 @@ module.exports = dll_55dc4e2ecf7824085104;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]));;
+},[[4,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=react-annotation-tool.js.map

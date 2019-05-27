@@ -28,6 +28,27 @@ export default () => (
 						</div>
 					</Col>
 			</Row>
+			<p className="h2 mt-5">About me_</p>
+			<Row className="mt-3">
+					<Col className="">
+					<p>
+					I am a UT graduate student and an engineer who passionate about human computer interaction.
+					I am utilizing React & Redux, Node.js and MongoDB to conduct computer vision and crowdsourcing research with Prof. Danna Gurari from UT Austin and Prof. Jeffrey P. Bigham team from CMU HCII. and our paper is selected as the spotlight presentation by premier computer vision conference, CVPR 2018.
+					</p>
+					<p>
+					Before entering UT, I was a founder of an outsourcing company, providing Ruby on Rails based software solutions to all kinds of companies, including IT companies, household appliance companies and school foundations. I also started up an e-commerce crop-trading Ruby on Rails platform to help customers buy vegetables and fruits from local farmers directly.
+					After coding with Model View Controller framework many years, I am moving from Ruby on Rails and Laravel to Node.js, React + Redux and NoSQL. I am eager to learn and challenge new technology, I have passion for web development and user experience and most importantly I equip strong communication and teamwork skills.
+					</p>
+					<p>
+					I am eager to learn and challenge new technology, I have passion for web development and user experience and most importantly I equip strong communication and teamwork skills.
+					</p>
+					</Col>
+			</Row>
+			<Row>
+				<Col>
+					<hr />
+				</Col>
+			</Row>
 			<Row className="mt-5">
 					<Col className="d-flex align-items-center justify-content-center" md={{ size: 4, offset: 1 }}>
 						<p className="h2">Projects_</p>
