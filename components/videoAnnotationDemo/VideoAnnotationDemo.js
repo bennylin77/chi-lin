@@ -49,7 +49,7 @@ class Demo extends Component {
 
     handleSubmit = async event => {
 		event.preventDefault();
-		let annotations = [];
+		let result = {};
 		if (this.fileInput.current.files[0]) {
 			const readFilePromise = new Promise( (resolve, reject) => {
 				const fileReader = new FileReader();
@@ -58,8 +58,6 @@ class Demo extends Component {
 						reject('Wrong json format');
 
 					let result = JSON.parse(event.target.result);
-					//do something here to discard unnecessary data in the file
-
 					resolve( result )
 				}
 				fileReader.onerror = event => {
@@ -67,18 +65,20 @@ class Demo extends Component {
 				}
 				fileReader.readAsText(this.fileInput.current.files[0]);
 			})
-			annotations = await readFilePromise;
+			result = await readFilePromise;
 		}
+
+		let {url = '', annotationWidth = 0, annotations = []} = result;
 
 	  	this.setState( (preState) => {
 				const { input } = preState;
-				if (annotations.length === 0) {
+				if ( annotations.length === 0 ) {
 					annotations = this.isJsonString(input.annotations) ? JSON.parse(input.annotations) : [];
 				}
 		  		return { params: {
 							annotations: annotations,
-							url: input.url,
-							annotationWidth: parseInt(input.annotationWidth, 10)
+							url: url || input.url,
+							annotationWidth: ( annotationWidth !== 0 ? annotationWidth : parseInt(input.annotationWidth, 10) )
 						}
 				};
 	  		}
