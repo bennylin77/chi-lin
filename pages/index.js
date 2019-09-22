@@ -18,6 +18,9 @@ export default () => (
 						<div className="pl-5">
 							<h1 className="h1"><strong>Chi Lin_</strong></h1>
 							<div className="mb-2">A Full-stack Developer with a passion for Human Computer Interaction</div>
+							<div className="mb-2 font-italic font-weight-bold">
+							Looking for entrepreneurship and research opportunity!
+							</div>
 							<div className="social-icon-wrapper">
 								<span className="pr-1"><a href="https://github.com/bennylin77/"><FaGit style={{fontSize: 30}} /></a></span>
 								|
@@ -26,22 +29,6 @@ export default () => (
 								<a href="https://www.dropbox.com/s/w04x1kyssvf17fq/resume.pdf?dl=0" target="_blank" ><span className="pl-1">résumé</span></a>
 							</div>
 						</div>
-					</Col>
-			</Row>
-			<p className="h2 mt-5">About me_</p>
-			<Row className="mt-3">
-					<Col className="">
-					<p>
-					I am a UT graduate student and an engineer who passionate about human computer interaction.
-					I am utilizing React & Redux, Node.js and MongoDB to conduct computer vision and crowdsourcing research with Prof. Danna Gurari from UT Austin and Prof. Jeffrey P. Bigham team from CMU HCII. and our paper is selected as the spotlight presentation by premier computer vision conference, CVPR 2018.
-					</p>
-					<p>
-					Before entering UT, I was a founder of an outsourcing company, providing Ruby on Rails based software solutions to all kinds of companies, including IT companies, household appliance companies and school foundations. I also started up an e-commerce crop-trading Ruby on Rails platform to help customers buy vegetables and fruits from local farmers directly.
-					After coding with Model View Controller framework many years, I am moving from Ruby on Rails and Laravel to Node.js, React + Redux and NoSQL. I am eager to learn and challenge new technology, I have passion for web development and user experience and most importantly I equip strong communication and teamwork skills.
-					</p>
-					<p>
-					I am eager to learn and challenge new technology, I have passion for web development and user experience and most importantly I equip strong communication and teamwork skills.
-					</p>
 					</Col>
 			</Row>
 			<Row>
@@ -60,7 +47,7 @@ export default () => (
 										<p className="h5">React Video & Image Annotation Tool</p>
 									</div>
 									<div>
-									  A React NPM package for image and video annotation
+									  A React npm package for image and video annotation
 									</div>
 									<div className="social-icon-wrapper">
 										<Link href="https://github.com/bennylin77/react-annotation-tool">
@@ -103,6 +90,16 @@ export default () => (
 					</Col>
 					<Col md="7">
 							<ul className="list-unstyled">
+								<li className="pb-4">
+									<div>
+										<p className="h5">VizWiz-Priv: A Dataset for Recognizing the Presence and Purpose of Private Visual Information in Images Taken by Blind People, CVPR 2019</p>
+									</div>
+									<div className="social-icon-wrapper">
+										<Link href="https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2019/vizwiz-priv.pdf">
+											<a><span className="pr-1"><FaFilePdf style={{fontSize: 20}} /></span></a>
+										</Link>
+									</div>
+								</li>
 								<li className="pb-4">
 									<div>
 										<p className="h5">VizWiz Grand Challenge: Answering Visual Questions from Blind People, CVPR 2018</p>
