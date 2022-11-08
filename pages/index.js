@@ -18,15 +18,12 @@ export default () => (
 						<div className="pl-5">
 							<h1 className="h1"><strong>Chi Lin_</strong></h1>
 							<div className="mb-2">A Full-stack Developer with a passion for Human Computer Interaction</div>
-							<div className="mb-2 font-italic font-weight-bold">
-							Looking for entrepreneurship and research opportunity!
-							</div>
 							<div className="social-icon-wrapper">
 								<span className="pr-1"><a href="https://github.com/bennylin77/"><FaGit style={{fontSize: 30}} /></a></span>
 								|
 								<span className="p-1"><a href="https://www.linkedin.com/in/chi-benny-lin-508b841a/"><FaLinkedin style={{fontSize: 25}} /></a></span>
 								|
-								<a href="https://www.dropbox.com/s/w04x1kyssvf17fq/resume.pdf?dl=0" target="_blank" ><span className="pl-1">résumé</span></a>
+								<a href="https://www.dropbox.com/s/oklbbc1qqn9qf1o/resume_2022.pdf?dl=0" target="_blank" ><span className="pl-1">résumé</span></a>
 							</div>
 						</div>
 					</Col>
